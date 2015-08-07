@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="tiny656" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="shortcut icon" href="/favicon.ico" /> <!-- 图标 -->
+    <!-- Modernizr -->
+    <script src="@Url.Content("~/Public/js/lib/groundwork/lib/modernizr-2.6.2.min.js")"></script>
+    <!-- framework css -->
+    <!--[if gt IE 9]><!-->
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Public/css/lib/groundwork/groundwork.css")">
+    <!--<![endif]-->
+    <!--[if lte IE 9]>
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Public/css/lib/groundwork/groundwork-core.css")">
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Public/css/lib/groundwork/groundwork-type.css")">
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Public/css/lib/groundwork/groundwork-ui.css")">
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Public/css/lib/groundwork/groundwork-anim.css")">
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Public/css/lib/groundwork/groundwork-ie.css")">
+    <![endif]-->
+</head>
+<body>
+    @RenderBody(); <!-- TODO need update-->
+    <script type="text/javascript" src="@Url.Content("~/Public/js/lib/groundwork/lib/jquery-1.10.2.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Public/js/lib/groundwork/groundwork.all.js")"></script>
+</body>
+</html>
