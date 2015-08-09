@@ -82,10 +82,11 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Public\css\index.css" />
-    <Content Include="Public\css\lib\groundwork\fonts\fontawesome-webfont.svg" />
+    <Content Include="Public\css\lib\fonts\fontawesome-webfont.svg" />
     <Content Include="Public\css\lib\groundwork\groundwork-anim.css" />
     <Content Include="Public\css\lib\groundwork\groundwork-core.css" />
     <Content Include="Public\css\lib\groundwork\groundwork-ie.css" />
+    <Content Include="Public\css\lib\groundwork\groundwork-type.css" />
     <Content Include="Public\css\lib\groundwork\groundwork-ui.css" />
     <Content Include="Public\css\lib\groundwork\groundwork.css" />
     <Content Include="Public\css\lib\onepage-scroll\onepage-scroll.css" />
@@ -112,9 +113,9 @@
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Public\css\lib\groundwork\fonts\fontawesome-webfont.eot" />
-    <Content Include="Public\css\lib\groundwork\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Public\css\lib\groundwork\fonts\fontawesome-webfont.woff" />
+    <Content Include="Public\css\lib\fonts\fontawesome-webfont.eot" />
+    <Content Include="Public\css\lib\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Public\css\lib\fonts\fontawesome-webfont.woff" />
     <Content Include="Uploads\100722179.webm" />
     <Content Include="Uploads\145977426.webm" />
     <Content Include="Uploads\181195791.webm" />
