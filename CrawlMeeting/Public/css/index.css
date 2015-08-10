@@ -41,16 +41,67 @@ body {
 .main section.page1 {
     height: 100%;
     width: 100%;
-    background: #555557 url('../img/page1.jpg') no-repeat center;
+    background: #555557 url('../img/online-meeting-tool.jpg') no-repeat center;
     background-size: 100% 100%;
 }
 
 .main section.page2 {
     height: 100%;
-    background:rgb(255, 0, 0);
+    width: 100%;
+    background: #555557 url('../img/page1.jpg') no-repeat center;
+    background-size: 100% 100%;
 }
 
 .main section.page3 {
     height: 100%;
     background:rgb(0, 0, 255);
+}
+.page1 .slogan{
+    text-align: center;
+ }
+
+.page1 .slogan h2 {
+    color: #FFF;
+    text-shadow: none;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+    text-shadow: -1px 0 1px #000;
+}
+
+.page1 .slogan h4 {
+    color: #fff;
+    text-shadow: -1px 1px 1px #000;
+}
+
+.navbar-brand h1 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+h1, .h1 {
+    font-size: 36px;
 }
