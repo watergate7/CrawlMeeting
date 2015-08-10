@@ -41,14 +41,14 @@ body {
 .main section.page1 {
     height: 100%;
     width: 100%;
-    background: #555557 url('../img/online-meeting-tool.jpg') no-repeat center;
+    background: #555557 url('../img/videoconference_online_meeting_crop.jpg') no-repeat center;
     background-size: 100% 100%;
 }
 
 .main section.page2 {
     height: 100%;
     width: 100%;
-    background: #555557 url('../img/page1.jpg') no-repeat center;
+    background: #555557 url('../img/online-meeting-tool.jpg') no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -74,11 +74,27 @@ body {
     border-color: #000;
     border-style: none;
     text-shadow: -1px 0 1px #000;
+    margin-bottom:40px;
 }
 
-.page1 .slogan h4 {
+.section_heading h2 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    margin-bottom:70px;
+}
+
+
+.page1 .slogan h3 {
     color: #fff;
     text-shadow: -1px 1px 1px #000;
+    margin-bottom:50px;
+}
+
+.page1 .head_container {
+    margin-left:20px;
 }
 
 .navbar-brand h1 {
@@ -97,11 +113,25 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 30px;
-    text-transform: uppercase;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
 h1, .h1 {
     font-size: 36px;
+}
+
+.container p {
+    font-size : 20px;
+    color: #fff;
+}
+
+.container h3 {
+    font-size:28px;
+    color: #fff;
+}
+
+.service-icon img {
+    height: 30px;
+    width: 30px;
 }

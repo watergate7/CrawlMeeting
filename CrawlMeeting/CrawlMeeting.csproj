@@ -100,10 +100,11 @@
     <Content Include="Public\css\lib\groundwork\groundwork.css" />
     <Content Include="Public\css\lib\onepage-scroll\onepage-scroll.css" />
     <Content Include="Public\img\banner2.jpg" />
+    <Content Include="Public\img\note-taking_icon.jpg" />
     <Content Include="Public\img\online-meeting-tool.jpg" />
     <Content Include="Public\img\page1.jpg" />
-    <Content Include="Public\img\unnamed.jpg" />
     <Content Include="Public\img\videoconference_online_meeting_crop.jpg" />
+    <Content Include="Public\img\web-video-icon.jpg" />
     <Content Include="Public\js\lib\groundwork\groundwork.all.js" />
     <Content Include="Public\js\lib\groundwork\lib\jquery-1.10.2.min.js" />
     <Content Include="Public\js\lib\groundwork\lib\modernizr-2.6.2.min.js" />
