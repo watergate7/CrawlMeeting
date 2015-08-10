@@ -53,7 +53,65 @@
             </section>
             <section class="page3">
                 <div class="page_container">
-                    I'm in page three
+                    <div class="row">
+                        <div class="two third triple-pad-right half-pad-top">
+                            <div class="row">
+                                <div class="one">
+                                    <h1 class="zero museo-slab align-left">Online Meeting Example Heading</h1>
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="one triple-pad-top">
+                                    <h3 class="quicksand align-left">
+                                        Demonstrates Typography, Styled Lists, Buttons, Source Reordering, Grid Breakpoint Modifiers and Adapters
+                                    </h3>
+                                    <ul class="checklist large turquoise inline-block">
+                                        <li aria-checked="true" class="align-left">Fast</li>
+                                        <li aria-checked="true" class="align-left">Effective</li>
+                                        <li aria-checked="true" class="align-left">High Quality</li>
+                                        <li aria-checked="true" class="align-left">Intelligence</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="one third">
+                            @using (Html.BeginForm())
+                            {
+                                <div class="row">
+                                    <div class="one">
+                                        <p class="source-sans-pro pull-left block">
+                                            Your information <a href="#">What's this?</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="one half-pad-bottom">
+                                        <input type="text" name="user" maxlength="10" required="" placeholder="Pick a username" class="large" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="one half-pad-top half-pad-bottom">
+                                        <input type="email" name="user" maxlength="10" required placeholder="Your email" class="large"/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="one half-pad-bottom">
+                                        <p class="source-sans-pro pull-left">Please use legal username and email</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="one half-pad-top half-pad-bottom">
+                                        <button class="green large block">Start new meeting</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="one half-pad-top half-pad-bottom">
+                                        <button class="blue large block">Join meeting</button>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
